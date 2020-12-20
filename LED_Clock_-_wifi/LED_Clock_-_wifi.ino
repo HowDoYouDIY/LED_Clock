@@ -15,7 +15,7 @@ CRGB leds[NUM_LEDS];
 //************************************************************************
 const char* WIFI_NAME     = "Your WIFI Name";     // SSID of local network
 const char* WIFI_PASSWORD = "Your WIFI Password"; // Password on network
-long utcOffset = -7;                              // Hour adjustment from the found Internet Time
+long utcOffset = 0;                              // Hour adjustment from the found Internet Time
 //************************************************************************
 bool timeFound = false;
 bool needToUpdateTime = true;
